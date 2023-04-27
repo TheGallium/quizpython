@@ -1,0 +1,18 @@
+[project]
+name = "quizpython_TheGallium"
+version = "1.0.0"
+authors = [
+  { name="TheGallium", email="gallium.discord@gmail.com" },
+]
+description = "Interacting with users to obtain their responses to questions or multiple-choice questions."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/TheGallium/quizpython"
+"Bug Tracker" = "https://github.com/TheGallium/quizpython/issues"
