@@ -1,4 +1,4 @@
-# Quiz Python Module Documentation
+# Quiz Python
 
 The `quiz` module provides two methods for interacting with users to obtain their responses to questions or multiple-choice questions.
 
@@ -6,18 +6,18 @@ The `quiz` module provides two methods for interacting with users to obtain thei
 
 Install the module by using:
 ```
-pip install quiz
+pip install quizpython
 
 
 To use the `quiz` module, you first need to import it using the following statement:
 
 ```python
-import quiz
+from quizpython install *
 ```
 
 ## Methods
 
-The `quiz` module provides the following methods:
+The `quizpython` module provides the following methods:
 
 ### • ask.question()
 
@@ -25,7 +25,7 @@ This method takes a single argument `question` which is a string that represents
 
 Example usage:
 ```python
-response = quiz.ask.question("What is your name?")
+response = ask.question("What is your name?")
 print(response)
 ```
 
@@ -51,7 +51,7 @@ The method will print the question and the list of options to the console, and p
 Example usage:
 ```python
 options = ['Option 1', 'Option 2', 'Option 3']
-selected_option, index = quiz.ask.choice("Select an option:", options, default_choice=2)
+selected_option, index = ask.choice("Select an option:", options, default_choice=2)
 print(selected_option)
 ```
 
@@ -63,12 +63,5 @@ Select an option:
   > Option 2
     Option 3
 
-Option 3
+Option 1
 ```
-
-## Dependencies
-
-The `quiz` module requires the following dependencies to be installed:
-
-- `pick`: a Python library for creating interactive command-line interfaces.
-- `os`: a Python library for interacting with the operating system.
