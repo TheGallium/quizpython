@@ -5,9 +5,9 @@ The `quiz` module provides two methods for interacting with users to obtain thei
 ## Installing and using the Module
 
 Install the module by using:
-```
+```bash
 pip install quizpython
-
+```
 
 To use the `quiz` module, you first need to import it using the following statement:
 
