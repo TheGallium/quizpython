@@ -2,7 +2,12 @@
 
 The `quiz` module provides two methods for interacting with users to obtain their responses to questions or multiple-choice questions.
 
-## Importing the Module
+## Installing and using the Module
+
+Install the module by using:
+```
+pip install quiz
+
 
 To use the `quiz` module, you first need to import it using the following statement:
 
